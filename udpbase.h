@@ -18,6 +18,7 @@ signals:
 public slots:
     void Send(const QString &address, quint16 port, const QByteArray &data);
     void Read();
+    bool isError(const QHostAddress &address, quint16 port);
 
 private:
     QUdpSocket *socket;
