@@ -35,23 +35,22 @@ void TCPClient::Disconnect()
 
 void TCPClient::Close()
 {
-    qDebug() << "[TCP] Client closed.";
     tcpClient->close();
+    qDebug() << "[TCP] Client closed.";
 }
 
 void TCPClient::Abort()
 {
-    qDebug() << "[TCP] Connection aborted.";
     tcpClient->abort();
+    qDebug() << "[TCP] Connection aborted.";
 }
 
-void TCPClient::Send(QString str)
+void TCPClient::Send(const QByteArray &data)
 {
-    QByteArray Data(str.toUtf8());
     if (tcpClient->state() == QTcpSocket::ConnectedState) {
-        tcpClient->write(Data);
+        tcpClient->write(data);
         tcpClient->flush();
-        qDebug() << "[TCP] Message sent: " << str;
+        qDebug() << "[TCP] Message sent: " << data;
     } else qDebug() << "[TCP] Message not sent!";
 }
 
@@ -77,8 +76,8 @@ void TCPClient::onDisconnected()
 void TCPClient::onMessage()
 {
     qDebug() << "[TCP] New message arrived.";
-    array = tcpClient->readAll();
-    emit newMessage(tcpClient->peerAddress().toString(), array);
+    TcpArray = tcpClient->readAll();
+    emit newMessage(tcpClient->peerAddress().toString(), TcpArray);
 }
 
 void TCPClient::onStateChanged(QAbstractSocket::SocketState state)
