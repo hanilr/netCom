@@ -14,7 +14,7 @@ public:
     void Disconnect();
     void Close();
     void Abort();
-    void Send(QString string);
+    void Send(const QByteArray &data);
 
 signals:
     void newMessage(const QString &from, const QString &message);
@@ -30,7 +30,7 @@ private slots:
 
 private:
     QTcpSocket *tcpClient;
-    QByteArray array;
+    QByteArray TcpArray;
 };
 
 #endif // TCPCLIENT_H
