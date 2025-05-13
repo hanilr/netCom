@@ -1,0 +1,2592 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'a00036';
+  cp-name   = 'MainWindow';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'a00052';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00036_1a996c5a2b6f77944776856f08ec30858d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'MainWindow';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QWidget *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'parent';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+nullptr
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'a00005_1a996c5a2b6f77944776856f08ec30858d';
+        sec-mem-ref-line = '9';
+        sec-mem-ref-name = 'MainWindow';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00005_1a996c5a2b6f77944776856f08ec30858d';
+        sec-mem-ref-line = '9';
+        sec-mem-ref-name = 'MainWindow';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00036_1ae98d00a93bc118200eeef9f9bba1dba7';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~MainWindow';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00036_1a7960a424a4a3de561a6a70bff5876329';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+UDPBase *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'socket';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '127';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00036_1acf751abd004c171184094791057b741b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+TCPClient *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpClient';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '129';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00036_1ac33036db9153132e063f943748d17156';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+TCPServer *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpServer';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '128';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00036_1a35466a70ed47252a0191168126a352a5';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+Ui::MainWindow *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ui';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '126';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-slot';
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab476bc7dd3dd4ff2e1a06a825ee6efe6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'log_message';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QString
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'msg';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a2380a8e639f8a59bfe11080eb4a43660';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonConnectionSelect_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '71';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a63bf439a740c27f27ea70b172026e387';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonLogClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a0efa59f0bcc8f04e0bb6171bd04c36e3';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonLogSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1af339daae505d2caf9b66b6f1e2f1bf7d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonRefresh_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '65';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a74067bc887da9bb147f8e07193c47c71';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClientClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '41';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab221c6c353c1dcb97261a47014b30bda';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClientConnect_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '117';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a52dfc5f967aae7dbce55cf560e767aba';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClienterClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '37';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a0143fb296c1c7ef49bec663e78f1aaca';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClienterConnect_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '95';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1af7900486efb8eeaaa17bf6ec3d2b85ee';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClienterSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '39';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1afce658037aa59aea2c660e222829c789';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClienterSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '99';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a69c3acf75cfb88cff397e3e820f2ce53';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClientSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '43';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1aec67de0a66712759de9aaf70b6c27420';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPClientSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '121';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a1a231ecfffaed24e92cd9bfcd2010259';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPRed_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab2449a6ce9e8478e778b64562c4b7005';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServerClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '45';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a9f9fc20f88df1c91c53ba5a4d6ae48dd';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServererClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a816203027710ade5545a086551a3e9ee';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServererSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '35';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ad046a1d657be03b10f12897a69feb461';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServererSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '105';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a80817891cd3391791656956d66a8e4b9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServererStart_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '93';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ae311d58191b07bb38a6ad192fb15dc10';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServerSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '47';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab8d8e89a2444afc9b33475a98179e10c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServerSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '113';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1aa03235b4b2c33a69e416f1a44667bae6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonTCPServerStart_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '109';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a810a8a812f3eae348d328552003af050';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '49';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a4d43b3920a65275501e9862c6f55c7a2';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPListen_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '73';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a19704d30eddff9ccbe27c243a366b54a';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPListenClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '57';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a87ccca869cb93824288f72d9103ec65f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPListenListen_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '81';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a231647256d786b0bdd56f34bc58b9653';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPListenSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '59';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a549e0009509ce19b524e6428dc22a273';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPRed_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a06b09d3eb76c94b83c30980dc7dd9ae9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSaveScreen_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '51';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1afafefda7f6af9bfb3838ec569652da27';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSendBind_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '85';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a36d06a7146580a74825e090d6a55f96b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSendClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '61';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1af48342f2a965b13bfb841755c3d21eaf';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSenderClear_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '53';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a8ecfa6c4366df52d0853ccaf65fffb2f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSenderSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '55';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a611fed1c7fb6d493bba33299aacccce6';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSenderSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '77';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1afe469d0746af4e39c2ad49254d350218';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSendSave_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '63';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1acb84d1263b9ae6ff9bccb957cb2f2b60';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_ButtonUDPSendSend_clicked';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '87';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1aa64570e3454653755c0bd14b5422ba7c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextHost_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '67';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a32dd6ed5951a94d81379873b76642552';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextPort_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '69';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1abaf883be8d992c05f469c1096a9df7ee';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextTCPClientCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '123';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1abf2dbd3458d14c202ab40dfc1fa914db';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextTCPClienterCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '101';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a1b66352dd4bd3bf19386a569e8e14bda';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextTCPServerCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '115';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a560ee22de9399066e7b1c264dd350056';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextTCPServererCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '107';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ae6559dba3923afbdafb589883d157376';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextUDPSendCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '89';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a2e2076aaebe38cdace330fa94033f642';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'on_TextUDPSenderCommand_returnPressed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '79';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab69a204a680f692e91fd008286c774fc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onDataReceived';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QByteArray
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'senderPort';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '75';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ac13fb2d31a50924adc773866df91d818';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onDataReceivedTcp';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '97';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ad9e7329af45f290af16f309456f26fee';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onDataReceivedTcpClient';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '103';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1adea331334e83a43e52e1f475815c5e83';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TcpClientDataReceived';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '119';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1a1a9271ec687fc3c2018a226e415357dd';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TcpServerDataReceived';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00036_1ab883c79445e19a59ec4a5d73fa5a26f0';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'UDPDataReceived';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QByteArray
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'senderPort';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+  cp-fileline  = '16';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'a00036';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'QMainWindow';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'a00036';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'QMainWindow';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'a00052';
+  cp-name   = 'QMainWindow';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'a00036';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+  cp-fileline  = '16';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'MainWindow';
+        node-link = {
+          node-link-id = 'a00036';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'QMainWindow';
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'a00056';
+  cp-name   = 'QObject';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'a00040';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'a00044';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'a00048';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+  cp-fileline  = '8';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 2;
+        node-label = 'TCPClient';
+        node-link = {
+          node-link-id = 'a00040';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 3;
+        node-label = 'TCPServer';
+        node-link = {
+          node-link-id = 'a00044';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 4;
+        node-label = 'UDPBase';
+        node-link = {
+          node-link-id = 'a00048';
+        };
+        node-child = {
+          child-id = '1';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'a00040';
+  cp-name   = 'TCPClient';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'a00056';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1a2c268dae3253635894728162ddef557a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TCPClient';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QObject *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'parent';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+nullptr
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '12';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1adc1dd312a81e91964291d7026e9f045d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Abort';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '16';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1a92de6efceb6c5ed17efd0094329c342c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Close';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '15';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1a4de78affbda2d59d478413dc9fbd172a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Connect';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'addr';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '13';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1a4f1ef72eee7104ee8aeae21a33ec5a14';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Disconnect';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '14';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00040_1a12501b3be69956fcf8ef7004df148224';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Send';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QByteArray &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '17';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'signal';
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00040_1ac3c46ad08739733f431c4410375a7f8c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'connectionFailed';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '23';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00040_1a6d1871f59259afb0277ccbc300f6d9c3';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'newMessage';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00040_1a56d2c314cabb5726acd52f0f866942ac';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpClientConnected';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00040_1a6192331fe4a8db660715775af1dd163a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpClientDisconnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '22';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00040_1ac003c2172327e20afbf10aa3b9fe0913';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QByteArray
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TcpArray';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00040_1a47e9966f2a7bfd17b43063cc03c18fb9';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QTcpSocket *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpClient';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-slot';
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00040_1aeb90320605a7ce8b87ff313ecf911b13';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onConnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00040_1a33019ff81400c45c84452b31014b1463';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onDisconnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '27';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00040_1a15d4f74b3ff120ce988b0ccee9883f88';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onMessage';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '28';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00040_1a4ff33ed612c14d849dbe0b654ca95b8b';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onStateChanged';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QAbstractSocket::SocketState
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'state';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+  cp-fileline  = '8';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TCPClient';
+        node-link = {
+          node-link-id = 'a00040';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TCPClient';
+        node-link = {
+          node-link-id = 'a00040';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'a00044';
+  cp-name   = 'TCPServer';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'a00056';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00044_1af9980f4c39e88fb8d8ff473764d3723d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'TCPServer';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QObject *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'parent';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+nullptr
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '12';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00044_1a2cf8687f144fa8c724abf170b0e08bac';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Broadcast';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QString
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'msg';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '16';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00044_1a80a2d81c05c02bbf76af45eeabce70ab';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'StartServer';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'addr';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '13';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00044_1a1f15693134e083f7bec9c3c19475ee66';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'StopConnection';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '15';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00044_1a8d54ec962c21b4610089819b0e3ee29b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'StopServer';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '14';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'signal';
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00044_1a114a1f1943e68e1f3efb647e0d9151d2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'newMessage';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'message';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00044_1a2ffcb63a148e7b7aff3692b23b9fa4b2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpServerConnected';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'from';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00044_1a6ca8047169f91fb2dcfd18aa284bfde4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpServerDisconnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00044_1ad65f4ba34cb0a1d1d02c9e3f54736e44';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QByteArray
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'array';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '33';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00044_1a51b919bb449c54bbe388f29d55ee072c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'clientAddr';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00044_1a61be8a3fa46035964c15ba35ec89c4df';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'clientPort';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00044_1a2627d6b197dbb498ebc3dcadee745b06';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QTcpServer *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpServer';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '29';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00044_1a959b8175e0728ae2d4929783fcd27c87';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QTcpSocket *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tcpSocket';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '30';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-slot';
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00044_1ae42967497f2f8122ce2256bd89b124af';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onConnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00044_1a7c7100dbb993a3df057d820b431ebbb7';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onDisconnected';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '25';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00044_1abed003f451ada51cac5226d9515e3c64';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'onMessage';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+      sec-mem-desc-line = '26';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+  cp-fileline  = '8';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TCPServer';
+        node-link = {
+          node-link-id = 'a00044';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'TCPServer';
+        node-link = {
+          node-link-id = 'a00044';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'a00048';
+  cp-name   = 'UDPBase';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'a00056';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00048_1a85c5afaf5035fc6e5c22b18e9a8fce9a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'UDPBase';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QObject *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'parent';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+nullptr
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '11';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00048_1a0e9836e9a5a7f173a6696fcea7474f6f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Bind';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'addr';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '12';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'a00026_1a614b3ea591dc04a9f97fb6470b8d2cc1';
+        sec-mem-ref-line = '63';
+        sec-mem-ref-name = 'isError';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'a00026_1a1473a0eed4e77273dd79bb992dd9b86d';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Read';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'a00048_1a9e3ccde7c34cc233d1f05c286d0d0f2f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Unbind';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '13';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'a00026_1a1473a0eed4e77273dd79bb992dd9b86d';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Read';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-slot';
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00048_1a614b3ea591dc04a9f97fb6470b8d2cc1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'isError';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QHostAddress &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'address';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '21';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00026_1a0e9836e9a5a7f173a6696fcea7474f6f';
+        sec-mem-ref-line = '8';
+        sec-mem-ref-name = 'Bind';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00026_1ab0161ce617df50ba3e43e4e3d601fd83';
+        sec-mem-ref-line = '34';
+        sec-mem-ref-name = 'Send';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00048_1a1473a0eed4e77273dd79bb992dd9b86d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Read';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '20';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00026_1a0e9836e9a5a7f173a6696fcea7474f6f';
+        sec-mem-ref-line = '8';
+        sec-mem-ref-name = 'Bind';
+    };
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00026_1a9e3ccde7c34cc233d1f05c286d0d0f2f';
+        sec-mem-ref-line = '25';
+        sec-mem-ref-name = 'Unbind';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'slot';
+      sec-mem-id   = 'a00048_1ab0161ce617df50ba3e43e4e3d601fd83';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'Send';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QString &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'address';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'port';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const QByteArray &
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '19';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'a00026_1a614b3ea591dc04a9f97fb6470b8d2cc1';
+        sec-mem-ref-line = '63';
+        sec-mem-ref-name = 'isError';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'signal';
+    sec-member = {
+      sec-mem-kind = 'signal';
+      sec-mem-id   = 'a00048_1aded76b0c4c7adb676bf9630c85f4fe0b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'newMessage';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QByteArray
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'data';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+QHostAddress
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'sender';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+quint16
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'senderPort';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '16';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referencedby = {
+        sec-mem-ref-id = 'a00026_1a1473a0eed4e77273dd79bb992dd9b86d';
+        sec-mem-ref-line = '42';
+        sec-mem-ref-name = 'Read';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'a00048_1a983104e2806efb7f3c2a7a7a463ebe8f';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+QUdpSocket *
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'socket';
+      sec-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+      sec-mem-desc-line = '24';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+  cp-fileline  = '7';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'UDPBase';
+        node-link = {
+          node-link-id = 'a00048';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 2;
+        node-label = 'QObject';
+      }; /* node */
+      node = {
+        node-id    = 1;
+        node-label = 'UDPBase';
+        node-link = {
+          node-link-id = 'a00048';
+        };
+        node-child = {
+          child-id = '2';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'a00002';
+  file-name = 'main.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'a00002_1a0ddf1224851353fc92bfbff6f499fa97';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argc';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argv';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'C:/Users/anil_/OneDrive/Desktop/netCom/main.cpp';
+      func-mem-desc-line = '5';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00005';
+  file-name = 'mainwindow.cpp';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00008';
+  file-name = 'mainwindow.h';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00011';
+  file-name = 'README.md';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/README.md';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00014';
+  file-name = 'tcpclient.cpp';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00017';
+  file-name = 'tcpclient.h';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpclient.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00020';
+  file-name = 'tcpserver.cpp';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00023';
+  file-name = 'tcpserver.h';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/tcpserver.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00026';
+  file-name = 'udpbase.cpp';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'a00029';
+  file-name = 'udpbase.h';
+  file-full-name  = 'C:/Users/anil_/OneDrive/Desktop/netCom/udpbase.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+  namespace = {
+    ns-id   = 'a00032';
+    ns-name = 'Ui';
+  ns-filename  = 'C:/Users/anil_/OneDrive/Desktop/netCom/mainwindow.h';
+  ns-fileline  = '11';
+  ns-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  ns-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  };

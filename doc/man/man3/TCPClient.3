@@ -1,0 +1,93 @@
+.TH "TCPClient" 3 "Version 1.0.0" "netCom" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TCPClient
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <tcpclient\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBconnectionFailed\fP ()"
+.br
+.ti -1c
+.RI "void \fBnewMessage\fP (const QString &from, const QString &message)"
+.br
+.ti -1c
+.RI "void \fBtcpClientConnected\fP (const QString &from, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBtcpClientDisconnected\fP ()"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTCPClient\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "void \fBAbort\fP ()"
+.br
+.ti -1c
+.RI "void \fBClose\fP ()"
+.br
+.ti -1c
+.RI "void \fBConnect\fP (QHostAddress addr, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBDisconnect\fP ()"
+.br
+.ti -1c
+.RI "void \fBSend\fP (const QByteArray &data)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB8\fP of file \fBtcpclient\&.h\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "TCPClient::TCPClient (QObject * parent = \fRnullptr\fP)\fR [explicit]\fP"
+
+.PP
+Definition at line \fB3\fP of file \fBtcpclient\&.cpp\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void TCPClient::Abort ()"
+
+.PP
+Definition at line \fB42\fP of file \fBtcpclient\&.cpp\fP\&.
+.SS "void TCPClient::Close ()"
+
+.PP
+Definition at line \fB36\fP of file \fBtcpclient\&.cpp\fP\&.
+.SS "void TCPClient::Connect (QHostAddress addr, quint16 port)"
+
+.PP
+Definition at line \fB8\fP of file \fBtcpclient\&.cpp\fP\&.
+.SS "void TCPClient::connectionFailed ()\fR [signal]\fP"
+
+.SS "void TCPClient::Disconnect ()"
+
+.PP
+Definition at line \fB24\fP of file \fBtcpclient\&.cpp\fP\&.
+.SS "void TCPClient::newMessage (const QString & from, const QString & message)\fR [signal]\fP"
+
+.SS "void TCPClient::Send (const QByteArray & data)"
+
+.PP
+Definition at line \fB48\fP of file \fBtcpclient\&.cpp\fP\&.
+.SS "void TCPClient::tcpClientConnected (const QString & from, quint16 port)\fR [signal]\fP"
+
+.SS "void TCPClient::tcpClientDisconnected ()\fR [signal]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for netCom from the source code\&.

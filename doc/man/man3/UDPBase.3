@@ -1,0 +1,96 @@
+.TH "UDPBase" 3 "Version 1.0.0" "netCom" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+UDPBase
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <udpbase\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Public Slots"
+
+.in +1c
+.ti -1c
+.RI "bool \fBisError\fP (const QHostAddress &address, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBRead\fP ()"
+.br
+.ti -1c
+.RI "void \fBSend\fP (const QString &address, quint16 port, const QByteArray &data)"
+.br
+.in -1c
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBnewMessage\fP (QByteArray data, QHostAddress sender, quint16 senderPort)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUDPBase\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "bool \fBBind\fP (QHostAddress addr, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBUnbind\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB7\fP of file \fBudpbase\&.h\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "UDPBase::UDPBase (QObject * parent = \fRnullptr\fP)\fR [explicit]\fP"
+
+.PP
+Definition at line \fB3\fP of file \fBudpbase\&.cpp\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool UDPBase::Bind (QHostAddress addr, quint16 port)"
+
+.PP
+Definition at line \fB8\fP of file \fBudpbase\&.cpp\fP\&.
+.PP
+References \fBisError()\fP, and \fBRead()\fP\&.
+.SS "bool UDPBase::isError (const QHostAddress & address, quint16 port)\fR [slot]\fP"
+
+.PP
+Definition at line \fB63\fP of file \fBudpbase\&.cpp\fP\&.
+.PP
+Referenced by \fBBind()\fP, and \fBSend()\fP\&.
+.SS "void UDPBase::newMessage (QByteArray data, QHostAddress sender, quint16 senderPort)\fR [signal]\fP"
+
+.PP
+Referenced by \fBRead()\fP\&.
+.SS "void UDPBase::Read ()\fR [slot]\fP"
+
+.PP
+Definition at line \fB42\fP of file \fBudpbase\&.cpp\fP\&.
+.PP
+References \fBnewMessage()\fP\&.
+.PP
+Referenced by \fBBind()\fP, and \fBUnbind()\fP\&.
+.SS "void UDPBase::Send (const QString & address, quint16 port, const QByteArray & data)\fR [slot]\fP"
+
+.PP
+Definition at line \fB34\fP of file \fBudpbase\&.cpp\fP\&.
+.PP
+References \fBisError()\fP\&.
+.SS "void UDPBase::Unbind ()"
+
+.PP
+Definition at line \fB25\fP of file \fBudpbase\&.cpp\fP\&.
+.PP
+References \fBRead()\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for netCom from the source code\&.

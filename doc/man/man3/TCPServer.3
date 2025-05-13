@@ -1,0 +1,81 @@
+.TH "TCPServer" 3 "Version 1.0.0" "netCom" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TCPServer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <tcpserver\&.h>\fP
+.PP
+Inherits QObject\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBnewMessage\fP (const QString &from, const QString &message)"
+.br
+.ti -1c
+.RI "void \fBtcpServerConnected\fP (const QString &from, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBtcpServerDisconnected\fP ()"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTCPServer\fP (QObject *parent=nullptr)"
+.br
+.ti -1c
+.RI "void \fBBroadcast\fP (QString msg)"
+.br
+.ti -1c
+.RI "bool \fBStartServer\fP (QHostAddress addr, quint16 port)"
+.br
+.ti -1c
+.RI "void \fBStopConnection\fP ()"
+.br
+.ti -1c
+.RI "bool \fBStopServer\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line \fB8\fP of file \fBtcpserver\&.h\fP\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "TCPServer::TCPServer (QObject * parent = \fRnullptr\fP)\fR [explicit]\fP"
+
+.PP
+Definition at line \fB3\fP of file \fBtcpserver\&.cpp\fP\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void TCPServer::Broadcast (QString msg)"
+
+.PP
+Definition at line \fB48\fP of file \fBtcpserver\&.cpp\fP\&.
+.SS "void TCPServer::newMessage (const QString & from, const QString & message)\fR [signal]\fP"
+
+.SS "bool TCPServer::StartServer (QHostAddress addr, quint16 port)"
+
+.PP
+Definition at line \fB9\fP of file \fBtcpserver\&.cpp\fP\&.
+.SS "void TCPServer::StopConnection ()"
+
+.PP
+Definition at line \fB42\fP of file \fBtcpserver\&.cpp\fP\&.
+.SS "bool TCPServer::StopServer ()"
+
+.PP
+Definition at line \fB22\fP of file \fBtcpserver\&.cpp\fP\&.
+.SS "void TCPServer::tcpServerConnected (const QString & from, quint16 port)\fR [signal]\fP"
+
+.SS "void TCPServer::tcpServerDisconnected ()\fR [signal]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for netCom from the source code\&.
